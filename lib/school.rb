@@ -22,6 +22,7 @@ end
   end 
   
   def sort
+<<<<<<< HEAD
     
      sorted = {} 
     roster.each do |grade, students| 
@@ -29,4 +30,9 @@ end
     end
     sorted 
   end
+=======
+    sort.roster[grade]
+  end 
+  
+>>>>>>> 6dce38e2ea319d040cb2612f1b1e47e8e07842ca
 end 
